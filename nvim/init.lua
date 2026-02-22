@@ -91,3 +91,5 @@ vim.cmd('packadd! nohlsearch')
 vim.o.guifont = "SF Mono:h17"
 vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 vim.cmd('colorscheme kanagawa')
+vim.cmd('set lines=50')
+vim.cmd('set columns=125')
